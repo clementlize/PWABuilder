@@ -83,7 +83,7 @@ There are a few steps to take before your PWA is ready to be published. All the 
 #### 1. Deploy the assetlinks.json file
 Your zip file contains assetlinks.json. This is a digital asset links file that proves ownership of your PWA. 
 
-To properly deploy this file, upload it to your server at `https://<URL to your PWA>/.well-known/assetlinks.json`. 
+To properly deploy this file, upload it to your server at `https://<Host URL of your PWA>/.well-known/assetlinks.json`. 
 
 ?> **Note** Digital asset links are required for your PWA on Android. If you’re seeing a browser address bar in your app on Android, or if your app is crashing on launch, it means your assetlinks.json file is missing, inaccessible, or incorrect. See our asset links helper to fix this.
 
